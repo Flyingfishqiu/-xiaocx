@@ -1,0 +1,96 @@
+/* pages/userinfo/userinfo.wxss */
+@import '/weui.wxss';
+
+.userinfo-top {
+  height: 320rpx;
+  /* display: flex;
+  justify-content: center; *//* align-items: center; */
+}
+
+.tx {
+  height: 120rpx;
+  width: 120rpx;
+  padding-top: 7%;
+}
+
+.category {
+  height: 80rpx;
+  background: rgb(54, 54, 54);
+  opacity: 0.2;
+  width: 100%;
+}
+
+.top-text {
+  border-right: 1px solid rgb(54, 54, 54);
+  color: rgb(0, 0, 0);
+}
+
+.image {
+  height: 80%;
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+  justify-content: center;
+}
+
+.account {
+  text-align: right;
+  padding-right: 13rpx;
+  font-size: 30rpx;
+  height: 60rpx;
+  justify-content: center;
+  align-items: center;
+}
+
+.account image {
+  height: 45rpx;
+  width: 45rpx;
+  padding-right: 20rpx;
+  padding-top: 10rpx;
+}
+
+.account text {
+  display: inline-block;
+  padding-bottom: 20rpx;
+}
+
+.state {
+  height: 150rpx;
+  border: 1rpx sandybrown solid;
+}
+
+.state image {
+  height: 120rpx;
+  width: 120rpx;
+  display: inline-block;
+}
+
+.navs {
+  display: flex;
+}
+
+.nav-item {
+  width: 25%; 
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20rpx;
+}
+/* .navigator{
+ width: 25%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20rpx;
+} */
+.nav-item .nav-image {
+  width: 40rpx;
+  height: 40rpx;
+  margin: 5rpx;
+}
+
+.nav-item text {
+  margin-top: 20rpx;
+  font-size: 25rpx;
+  color: gray;
+}
